@@ -1,0 +1,306 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="E:\nilson\ProjetoConsigo\Versao_2\Administrador\Exe\Administrador.exe"/>
+    <OBJFILES value="Obj\Administrador.obj Obj\Main.obj Obj\Dmod2.obj Obj\ImpressaoDespesa.obj 
+      Obj\ImpressaoCotacaoPreco.obj Obj\InsercaoProduto.obj 
+      Obj\CadastroCliente.obj Obj\InformacaoAdicionalCliente.obj 
+      Obj\Gerencia.obj Obj\CadastroFornecedor.obj 
+      Obj\ImpressaoFechamentoVendedor.obj Obj\ImpressaoEntradaProduto.obj 
+      Obj\ImpressoraFiscal.obj Obj\ImpressoraMecaf.obj Obj\ServerSocket.obj 
+      Obj\ImpressaoEntradaProduto2.obj Obj\Dmod1.obj 
+      Obj\ImpressaoFechamentoVendedor2.obj Obj\ImpressaoListaPreco.obj 
+      Obj\ImpressaoDescontoCheque.obj Obj\Produtos.obj 
+      Obj\ThreadConsultaProduto.obj Obj\Vendas.obj Obj\Clientes.obj 
+      Obj\CotacaoPreco.obj Obj\Sedex.obj Obj\DescontoProduto.obj Obj\Senha.obj 
+      Obj\TefVisanetRedecardAmex.obj Obj\TefTecBan.obj Obj\ClientSocket.obj 
+      Obj\FormTef.obj Obj\ThreadVendaCliente.obj Obj\ValorCartao.obj 
+      Obj\SecaoCritica.obj Obj\Fornecedores.obj Obj\Entrada.obj Obj\Precos.obj 
+      Obj\EmFalta.obj Obj\Fechamento.obj Obj\Despesas.obj Obj\SedexGerencia.obj 
+      Obj\Impressora.obj Obj\Tef.obj Obj\ThreadTefAdmVisanet.obj 
+      Obj\ThreadTefAdmTecban.obj Obj\ThreadTefConsultaCheque.obj 
+      Obj\AdministracaoVisanetRedecardAmex.obj Obj\AdministracaoTecBan.obj 
+      Obj\ThreadLeituraX.obj Obj\ThreadReducaoZ.obj 
+      Obj\AdministracaoImpressoraEcf.obj Obj\ThreadLeituraMemoriaFiscal.obj 
+      Obj\ThreadLeituraReducaoFiscal.obj Obj\ThreadCancelamentoCupom.obj 
+      Obj\FormaPagamento.obj Obj\ThreadConsultaCliente.obj 
+      Obj\ThreadConsultaInformacaoAdicionalCliente.obj Obj\Processos.obj 
+      Obj\Conserto.obj Obj\OrdemDeServico.obj Obj\GerenciaConserto.obj 
+      Obj\Orcamento.obj Obj\Recibos.obj Obj\Recibo.obj 
+      Obj\ConverteDinheiroTexto.obj Obj\ThreadVendaServidor.obj"/>
+    <RESFILES value="Administrador.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) Main.dfm Dmod2.dfm ImpressaoDespesa.dfm 
+      ImpressaoCotacaoPreco.dfm InsercaoProduto.dfm CadastroCliente.dfm 
+      InformacaoAdicionalCliente.dfm Gerencia.dfm CadastroFornecedor.dfm 
+      ImpressaoFechamentoVendedor.dfm ImpressaoEntradaProduto.dfm 
+      ImpressaoEntradaProduto2.dfm Dmod1.dfm ImpressaoFechamentoVendedor2.dfm 
+      ImpressaoListaPreco.dfm ImpressaoDescontoCheque.dfm DescontoProduto.dfm 
+      Senha.dfm FormTef.dfm ValorCartao.dfm FormaPagamento.dfm OrdemDeServico.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="DCLUSR.lib"/>
+    <SPARELIBS value="rtl.lib vcl.lib qrpt.lib vclx.lib bdertl.lib dbrtl.lib vcldb.lib DCLUSR.lib"/>
+    <PACKAGES value="rtl.bpi vcl.bpi vclx.bpi bcbsmp.bpi dbrtl.bpi vcldb.bpi adortl.bpi 
+      ibsmp.bpi bdertl.bpi vcldbx.bpi qrpt.bpi teeui.bpi teedb.bpi tee.bpi 
+      dss.bpi teeqr.bpi ibxpress.bpi dsnap.bpi vclie.bpi inetdb.bpi inet.bpi 
+      nmfast.bpi webdsnap.bpi bcbie.bpi dclocx.bpi bcb97axserver.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="_RTLDLL;NO_STRICT;USEPACKAGES"/>
+    <MAINSOURCE value="Administrador.cpp"/>
+    <INCLUDEPATH value="D:\programs\borland\c_builder_6\Bin;D:\programs\borland\c_builder_6\Include;D:\programs\borland\c_builder_6\Include\Vcl"/>
+    <LIBPATH value="D:\programs\borland\c_builder_6\Bin;D:\programs\borland\c_builder_6\Lib\Obj;D:\programs\borland\c_builder_6\Lib;D:\programs\borland\c_builder_6\Projects\Lib"/>
+    <WARNINGS value=""/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-ID:\programs\borland\c_builder_6\Bin 
+      -ID:\programs\borland\c_builder_6\Include 
+      -ID:\programs\borland\c_builder_6\Include\Vcl -src_suffix cpp -D_DEBUG -boa"/>
+    <CFLAG1 value="-Od -H=d:\programs\borland\C_BUIL~1\lib\vcl60.csm -Hc -Q -w- -P -Vx -Ve 
+      -X- -r- -a8 -5 -b- -k -y -v -vi- -c -tW -tWM"/>
+    <PFLAGS value="-N2E:\nilson\ProjetoConsigo\Versao_2\Administrador\Obj 
+      -N0E:\nilson\ProjetoConsigo\Versao_2\Administrador\Obj -$YD -$W -$O- -$A8 
+      -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zi"/>
+    <LFLAGS value="-lE:\nilson\ProjetoConsigo\Versao_2\Administrador\Bpi 
+      -IE:\nilson\ProjetoConsigo\Versao_2\Administrador\Obj -D&quot;&quot; -aa -Tpe -x -Gn 
+      -w -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj $(PACKAGES) Memmgr.Lib sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mti.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="Administrador.cpp" FORMNAME="" UNITNAME="Administrador" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Administrador.res" FORMNAME="" UNITNAME="Administrador" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Main.cpp" FORMNAME="FormPrincipal" UNITNAME="Main" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Dmod2.cpp" FORMNAME="DataModuleQuery2" UNITNAME="Dmod2" CONTAINERID="CCompiler" DESIGNCLASS="TDataModule" LOCALCOMMAND=""/>
+      <FILE FILENAME="ImpressaoDespesa.cpp" FORMNAME="FormImpressaoDespesa" UNITNAME="ImpressaoDespesa" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ImpressaoCotacaoPreco.cpp" FORMNAME="FormCotacaoPreco" UNITNAME="ImpressaoCotacaoPreco" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="InsercaoProduto.cpp" FORMNAME="FormInsercaoProduto" UNITNAME="InsercaoProduto" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CadastroCliente.cpp" FORMNAME="FormInsercaoCliente" UNITNAME="CadastroCliente" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="InformacaoAdicionalCliente.cpp" FORMNAME="FormInformacaoAdicionalCliente" UNITNAME="InformacaoAdicionalCliente" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Gerencia.cpp" FORMNAME="FormGerencia" UNITNAME="Gerencia" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CadastroFornecedor.cpp" FORMNAME="FormInserirFornecedor" UNITNAME="CadastroFornecedor" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ImpressaoFechamentoVendedor.cpp" FORMNAME="FormImpressaoFechamentoVendedor" UNITNAME="ImpressaoFechamentoVendedor" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ImpressaoEntradaProduto.cpp" FORMNAME="FormImpressaoEntradaProduto" UNITNAME="ImpressaoEntradaProduto" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ImpressoraFiscal.cpp" FORMNAME="" UNITNAME="ImpressoraFiscal" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ImpressoraMecaf.cpp" FORMNAME="" UNITNAME="ImpressoraMecaf" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ServerSocket.cpp" FORMNAME="" UNITNAME="ServerSocket" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ImpressaoEntradaProduto2.cpp" FORMNAME="FormImpressaoEntradaProduto2" UNITNAME="ImpressaoEntradaProduto2" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Dmod1.cpp" FORMNAME="DataModuleQuery" UNITNAME="Dmod1" CONTAINERID="CCompiler" DESIGNCLASS="TDataModule" LOCALCOMMAND=""/>
+      <FILE FILENAME="ImpressaoFechamentoVendedor2.cpp" FORMNAME="FormImpressaoFechamentoVendedor2" UNITNAME="ImpressaoFechamentoVendedor2" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ImpressaoListaPreco.cpp" FORMNAME="FormImpressaoListaPreco" UNITNAME="ImpressaoListaPreco" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ImpressaoDescontoCheque.cpp" FORMNAME="FormImpressaoCheque" UNITNAME="ImpressaoDescontoCheque" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Produtos.cpp" FORMNAME="" UNITNAME="Produtos" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ThreadConsultaProduto.cpp" FORMNAME="" UNITNAME="ThreadConsultaProduto" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Vendas.cpp" FORMNAME="" UNITNAME="Vendas" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Clientes.cpp" FORMNAME="" UNITNAME="Clientes" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CotacaoPreco.cpp" FORMNAME="" UNITNAME="CotacaoPreco" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sedex.cpp" FORMNAME="" UNITNAME="Sedex" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DescontoProduto.cpp" FORMNAME="FormDescontoProduto" UNITNAME="DescontoProduto" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Senha.cpp" FORMNAME="FormPassword" UNITNAME="Senha" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TefVisanetRedecardAmex.cpp" FORMNAME="" UNITNAME="TefVisanetRedecardAmex" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TefTecBan.cpp" FORMNAME="" UNITNAME="TefTecBan" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ClientSocket.cpp" FORMNAME="" UNITNAME="ClientSocket" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="FormTef.cpp" FORMNAME="FormMensagemTef" UNITNAME="FormTef" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ThreadVendaCliente.cpp" FORMNAME="" UNITNAME="ThreadVendaCliente" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ValorCartao.cpp" FORMNAME="FormValorCartao" UNITNAME="ValorCartao" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="SecaoCritica.cpp" FORMNAME="" UNITNAME="SecaoCritica" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Fornecedores.cpp" FORMNAME="" UNITNAME="Fornecedores" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Entrada.cpp" FORMNAME="" UNITNAME="Entrada" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Precos.cpp" FORMNAME="" UNITNAME="Precos" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="EmFalta.cpp" FORMNAME="" UNITNAME="EmFalta" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Fechamento.cpp" FORMNAME="" UNITNAME="Fechamento" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Despesas.cpp" FORMNAME="" UNITNAME="Despesas" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="SedexGerencia.cpp" FORMNAME="" UNITNAME="SedexGerencia" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Impressora.cpp" FORMNAME="" UNITNAME="Impressora" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Tef.cpp" FORMNAME="" UNITNAME="Tef" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ThreadTefAdmVisanet.cpp" FORMNAME="" UNITNAME="ThreadTefAdmVisanet" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ThreadTefAdmTecban.cpp" FORMNAME="" UNITNAME="ThreadTefAdmTecban" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ThreadTefConsultaCheque.cpp" FORMNAME="" UNITNAME="ThreadTefConsultaCheque" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdministracaoVisanetRedecardAmex.cpp" FORMNAME="" UNITNAME="AdministracaoVisanetRedecardAmex" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdministracaoTecBan.cpp" FORMNAME="" UNITNAME="AdministracaoTecBan" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ThreadLeituraX.cpp" FORMNAME="" UNITNAME="ThreadLeituraX" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ThreadReducaoZ.cpp" FORMNAME="" UNITNAME="ThreadReducaoZ" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdministracaoImpressoraEcf.cpp" FORMNAME="" UNITNAME="AdministracaoImpressoraEcf" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ThreadLeituraMemoriaFiscal.cpp" FORMNAME="" UNITNAME="ThreadLeituraMemoriaFiscal" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ThreadLeituraReducaoFiscal.cpp" FORMNAME="" UNITNAME="ThreadLeituraReducaoFiscal" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ThreadCancelamentoCupom.cpp" FORMNAME="" UNITNAME="ThreadCancelamentoCupom" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="FormaPagamento.cpp" FORMNAME="FormFormaPagamento" UNITNAME="FormaPagamento" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ThreadConsultaCliente.cpp" FORMNAME="" UNITNAME="ThreadConsultaCliente" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ThreadConsultaInformacaoAdicionalCliente.cpp" FORMNAME="" UNITNAME="ThreadConsultaInformacaoAdicionalCliente" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Processos.cpp" FORMNAME="" UNITNAME="Processos" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Conserto.cpp" FORMNAME="" UNITNAME="Conserto" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="OrdemDeServico.cpp" FORMNAME="FormOrdemDeServico" UNITNAME="OrdemDeServico" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="GerenciaConserto.cpp" FORMNAME="" UNITNAME="GerenciaConserto" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Orcamento.cpp" FORMNAME="" UNITNAME="Orcamento" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Recibos.cpp" FORMNAME="" UNITNAME="Recibos" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Recibo.cpp" FORMNAME="" UNITNAME="Recibo" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ConverteDinheiroTexto.cpp" FORMNAME="" UNITNAME="ConverteDinheiroTexto" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ThreadVendaServidor.cpp" FORMNAME="" UNITNAME="ThreadVendaServidor" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1046
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[HistoryLists\hlIncludePath]
+Count=17
+Item0=D:\programs\borland\c_builder_6\Bin;D:\programs\borland\c_builder_6\Include;D:\programs\borland\c_builder_6\Include\Vcl
+Item1=D:\Programs\Borland\CBuilder5\Bin\;D:\Programs\Borland\CBuilder5\Include\;D:\Programs\Borland\CBuilder5\Include\Vcl\
+Item2=D:\Programs\Borland\CBuilder5\Bin;D:\Programs\Borland\CBuilder5\Include;D:\Programs\Borland\CBuilder5\Include\Vcl
+Item3=D:\Programs\Borland\CBuilder5\Bin\;$(BCB)\include;$(BCB)\include\vcl
+Item4=E:\Programs\Borland\CBuilder5\Bin\;$(BCB)\include;$(BCB)\include\vcl
+Item5=E:\Programs\Borland\CBuilder5\Bin\;e:\programs\Borland\CBuilder5\Projects\;E:\;E:\Programs\Imprise\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl
+Item6=E:\Programs\Borland\CBuilder5\Bin;e:\programs\Borland\CBuilder5\Projects\;E:\;E:\Programs\Imprise\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl
+Item7=e:\programs\Borland\CBuilder5\Projects\;E:\;E:\Programs\Imprise\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl
+Item8=e:\programs\Borland\CBuilder5\Projects;E:\;E:\Programs\Imprise\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl
+Item9=E:\;E:\Programs\Imprise\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl
+Item10=;e:\programs\Borland\CBuilder5\Projects;E:\;E:\Programs\Imprise\CBuilder5\Projects\;E:\programs\CBuilder5\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl
+Item11=E:\;E:\Programs\Imprise\CBuilder5\Projects\;E:\programs\CBuilder5\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl
+Item12=C:\;C:\Programs\Imprise\CBuilder5\Projects\;c:\programs\CBuilder5\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl
+Item13=C:\;C:\Programs\Imprise\CBuilder5\Projects;c:\programs\CBuilder5\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl
+Item14=c:\programs\CBuilder5\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl
+Item15=c:\programs\CBuilder5\CBuilder5\Projects;$(BCB)\include;$(BCB)\include\vcl
+Item16=$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=19
+Item0=D:\programs\borland\c_builder_6\Bin;D:\programs\borland\c_builder_6\Lib\Obj;D:\programs\borland\c_builder_6\Lib;D:\programs\borland\c_builder_6\Projects\Lib
+Item1=D:\programs\borland\c_builder_6\Bin;D:\programs\borland\c_builder_6\Lib\Obj;D:\programs\borland\c_builder_6\Lib
+Item2=D:\Programs\Borland\CBuilder5\Bin\;D:\Programs\Borland\CBuilder5\Lib\Obj\;D:\Programs\Borland\CBuilder5\Lib\
+Item3=D:\Programs\Borland\CBuilder5\Bin\;D:\Programs\Borland\CBuilder5\Lib\Obj;D:\Programs\Borland\CBuilder5\Lib
+Item4=D:\Programs\Borland\CBuilder5\Bin\;$(BCB)\lib\obj;$(BCB)\lib
+Item5=E:\Programs\Borland\CBuilder5\Bin\;$(BCB)\lib\obj;$(BCB)\lib
+Item6=E:\Programs\Borland\CBuilder5\Bin\;e:\programs\Borland\CBuilder5\Projects\;E:\;E:\Programs\Imprise\CBuilder5\Projects\;$(BCB)\lib\obj;$(BCB)\lib;E:\Programs\Borland\CBuilder5\Projects\Lib\
+Item7=E:\Programs\Borland\CBuilder5\Bin;e:\programs\Borland\CBuilder5\Projects\;E:\;E:\Programs\Imprise\CBuilder5\Projects\;$(BCB)\lib\obj;$(BCB)\lib;E:\Programs\Borland\CBuilder5\Projects\Lib\
+Item8=e:\programs\Borland\CBuilder5\Projects\;E:\;E:\Programs\Imprise\CBuilder5\Projects\;$(BCB)\lib\obj;$(BCB)\lib;E:\Programs\Borland\CBuilder5\Projects\Lib\
+Item9=e:\programs\Borland\CBuilder5\Projects;E:\;E:\Programs\Imprise\CBuilder5\Projects\;$(BCB)\lib\obj;$(BCB)\lib;E:\Programs\Borland\CBuilder5\Projects\Lib\
+Item10=E:\;E:\Programs\Imprise\CBuilder5\Projects\;$(BCB)\lib\obj;$(BCB)\lib;E:\Programs\Borland\CBuilder5\Projects\Lib\
+Item11=e:\programs\Borland\CBuilder5\Projects;E:\;E:\Programs\Imprise\CBuilder5\Projects\;E:\programs\CBuilder5\CBuilder5\Projects\;$(BCB)\lib\obj;$(BCB)\lib;E:\Programs\Borland\CBuilder5\Projects\Lib\
+Item12=E:\;E:\Programs\Imprise\CBuilder5\Projects\;E:\programs\CBuilder5\CBuilder5\Projects\;$(BCB)\lib\obj;$(BCB)\lib;E:\Programs\Borland\CBuilder5\Projects\Lib
+Item13=E:\;E:\Programs\Imprise\CBuilder5\Projects\;E:\programs\CBuilder5\CBuilder5\Projects\;$(BCB)\lib\obj;$(BCB)\lib
+Item14=C:\;C:\Programs\Imprise\CBuilder5\Projects\;c:\programs\CBuilder5\CBuilder5\Projects\;$(BCB)\lib\obj;$(BCB)\lib
+Item15=C:\;C:\Programs\Imprise\CBuilder5\Projects;c:\programs\CBuilder5\CBuilder5\Projects\;$(BCB)\lib\obj;$(BCB)\lib
+Item16=c:\programs\CBuilder5\CBuilder5\Projects\;$(BCB)\lib\obj;$(BCB)\lib
+Item17=c:\programs\CBuilder5\CBuilder5\Projects;$(BCB)\lib\obj;$(BCB)\lib
+Item18=$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=4
+Item0=D:\programs\borland\c_builder_6\Source\vcl;E:\nilson\ProjetoConsigo\Versao_2\Administrador
+Item1=D:\Programs\Borland\CBuilder5\Source\Vcl;D:\Users\Nilson\ProjetoConsigo\Versao_2\Administrador
+Item2=D:\Programs\Borland\CBuilder5\Source\Vcl
+Item3=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[HistoryLists\hlIntOutputDir]
+Count=8
+Item0=E:\nilson\ProjetoConsigo\Versao_2\Administrador\Obj
+Item1=Obj
+Item2=E:\Users\Nilson\Importante\ProjetoConsigo\Versao_2\Administrador\Obj
+Item3=Editado\Obj
+Item4=E:\Users\Nilson\ProjetoConsigo\Administrador\Editado\Obj
+Item5=E:\Users\Nilson\ProjetoConsigo\Administrador\Obj
+Item6=Intermediate
+Item7=E:\Users\Nilson\ProjetoConsigo\Administrador\Intermediate
+
+[HistoryLists\hlFinalOutputDir]
+Count=11
+Item0=E:\nilson\ProjetoConsigo\Versao_2\Administrador\Exe\
+Item1=E:\nilson\ProjetoConsigo\Versao_2\Administrador\Exe
+Item2=Exe\
+Item3=E:\Users\Nilson\Importante\ProjetoConsigo\Versao_2\Administrador\Exe
+Item4=E:\Users\Nilson\Importante\ProjetoConsigo\Versao_2\Administrador\Exe\
+Item5=Editado\Exe\
+Item6=E:\Users\Nilson\ProjetoConsigo\Administrador\Editado\Exe\
+Item7=E:\Users\Nilson\ProjetoConsigo\Administrador\Exe\
+Item8=E:\Users\Nilson\ProjetoConsigo\Administrador\Exe
+Item9=Final\
+Item10=E:\Users\Nilson\ProjetoConsigo\Administrador\Final
+
+[HistoryLists\hIBPIOutputDir]
+Count=6
+Item0=E:\nilson\ProjetoConsigo\Versao_2\Administrador\Bpi
+Item1=D:\Users\Nilson\ProjetoConsigo\Versao_2\Administrador\Bpi\
+Item2=E:\Users\Nilson\Importante\ProjetoConsigo\Versao_2\Administrador\Bpi\
+Item3=E:\Users\Nilson\ProjetoConsigo\Administrador\Editado\Bpi\
+Item4=E:\Users\Nilson\ProjetoConsigo\Administrador\Bpi\
+Item5=E:\Users\Nilson\ProjetoConsigo\Administrador\Bpi
+
+[Debugging]
+DebugSourceDirs=D:\programs\borland\c_builder_6\Source\vcl;E:\nilson\ProjetoConsigo\Versao_2\Administrador
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=1
+LinkDebugVcl=1
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>
